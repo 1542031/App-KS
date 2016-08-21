@@ -1,0 +1,62 @@
+D:\KS\KS\bin\x86\Release\KS.exe.config
+D:\KS\KS\bin\x86\Release\KS.exe
+D:\KS\KS\bin\x86\Release\KS.pdb
+D:\KS\KS\bin\x86\Release\System.Net.Http.dll
+D:\KS\KS\bin\x86\Release\System.Net.Http.xml
+D:\KS\KS\obj\x86\Release\KS.frmDangNhap.resources
+D:\KS\KS\obj\x86\Release\KS.frmMain.resources
+D:\KS\KS\obj\x86\Release\KS.frmPrint.resources
+D:\KS\KS\obj\x86\Release\KS.frmTinhTien.resources
+D:\KS\KS\obj\x86\Release\KS.frmTrangThai.resources
+D:\KS\KS\obj\x86\Release\KS.Properties.Resources.resources
+D:\KS\KS\obj\x86\Release\KS.TrangThaiPhong.resources
+D:\KS\KS\obj\x86\Release\KS.UCTraCuu.resources
+D:\KS\KS\obj\x86\Release\KS.csproj.GenerateResource.Cache
+D:\KS\KS\obj\x86\Release\KS.exe
+D:\KS\KS\obj\x86\Release\KS.pdb
+D:\KS\KS\obj\x86\Release\KS.csprojResolveAssemblyReference.cache
+D:\VS\KS\KS\bin\x86\Release\KS.exe.config
+D:\VS\KS\KS\obj\x86\Release\KS.exe
+D:\VS\KS\KS\obj\x86\Release\KS.pdb
+D:\VS\KS\KS\obj\x86\Release\KS.csprojResolveAssemblyReference.cache
+D:\VS\KS\KS\obj\x86\Release\KS.frmDangNhap.resources
+D:\VS\KS\KS\obj\x86\Release\KS.frmMain.resources
+D:\VS\KS\KS\obj\x86\Release\KS.frmPrint.resources
+D:\VS\KS\KS\obj\x86\Release\KS.frmTinhTien.resources
+D:\VS\KS\KS\obj\x86\Release\KS.frmTrangThai.resources
+D:\VS\KS\KS\obj\x86\Release\KS.Properties.Resources.resources
+D:\VS\KS\KS\obj\x86\Release\KS.TrangThaiPhong.resources
+D:\VS\KS\KS\obj\x86\Release\KS.UCTraCuu.resources
+D:\VS\KS\KS\obj\x86\Release\KS.csproj.GenerateResource.Cache
+D:\New folder\KS\KS\bin\x86\Release\KS.exe.config
+D:\New folder\KS\KS\obj\x86\Release\KS.exe
+D:\New folder\KS\KS\obj\x86\Release\KS.pdb
+D:\New folder\KS\KS\bin\x86\Release\KS.exe
+D:\New folder\KS\KS\bin\x86\Release\KS.pdb
+D:\New folder\KS\KS\bin\x86\Release\System.Net.Http.dll
+D:\New folder\KS\KS\bin\x86\Release\System.Net.Http.xml
+D:\New folder\KS\KS\obj\x86\Release\KS.csprojResolveAssemblyReference.cache
+D:\New folder\KS\KS\obj\x86\Release\KS.frmDangNhap.resources
+D:\New folder\KS\KS\obj\x86\Release\KS.frmMain.resources
+D:\New folder\KS\KS\obj\x86\Release\KS.frmPrint.resources
+D:\New folder\KS\KS\obj\x86\Release\KS.frmTinhTien.resources
+D:\New folder\KS\KS\obj\x86\Release\KS.frmTrangThai.resources
+D:\New folder\KS\KS\obj\x86\Release\KS.Properties.Resources.resources
+D:\New folder\KS\KS\obj\x86\Release\KS.TrangThaiPhong.resources
+D:\New folder\KS\KS\obj\x86\Release\KS.UCTraCuu.resources
+D:\New folder\KS\KS\obj\x86\Release\KS.csproj.GenerateResource.Cache
+D:\Others\OutSources\KS_ver1.3.1\KS\bin\x86\Release\KS.exe.config
+D:\Others\OutSources\KS_ver1.3.1\KS\obj\x86\Release\KS.exe
+D:\Others\OutSources\KS_ver1.3.1\KS\obj\x86\Release\KS.pdb
+D:\Others\OutSources\KS_ver1.3.1\KS\bin\x86\Release\KS.exe
+D:\Others\OutSources\KS_ver1.3.1\KS\bin\x86\Release\KS.pdb
+D:\Others\OutSources\KS_ver1.3.1\KS\obj\x86\Release\KS.csprojResolveAssemblyReference.cache
+D:\Others\OutSources\KS_ver1.3.1\KS\obj\x86\Release\KS.frmDangNhap.resources
+D:\Others\OutSources\KS_ver1.3.1\KS\obj\x86\Release\KS.frmMain.resources
+D:\Others\OutSources\KS_ver1.3.1\KS\obj\x86\Release\KS.frmPrint.resources
+D:\Others\OutSources\KS_ver1.3.1\KS\obj\x86\Release\KS.frmTinhTien.resources
+D:\Others\OutSources\KS_ver1.3.1\KS\obj\x86\Release\KS.frmTrangThai.resources
+D:\Others\OutSources\KS_ver1.3.1\KS\obj\x86\Release\KS.Properties.Resources.resources
+D:\Others\OutSources\KS_ver1.3.1\KS\obj\x86\Release\KS.TrangThaiPhong.resources
+D:\Others\OutSources\KS_ver1.3.1\KS\obj\x86\Release\KS.UCTraCuu.resources
+D:\Others\OutSources\KS_ver1.3.1\KS\obj\x86\Release\KS.csproj.GenerateResource.Cache
