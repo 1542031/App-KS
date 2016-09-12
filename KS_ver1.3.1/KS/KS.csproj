@@ -83,12 +83,15 @@
   <ItemGroup>
     <Compile Include="BUS\ChiTietBus.cs" />
     <Compile Include="BUS\LevyBus.cs" />
+    <Compile Include="BUS\PrintBus.cs" />
     <Compile Include="DAO\ChiTietDao.cs" />
     <Compile Include="DAO\DataProvider.cs" />
     <Compile Include="BUS\SomeFunctionBus.cs" />
     <Compile Include="DAO\LevyDao.cs" />
+    <Compile Include="DAO\PrintDao.cs" />
     <Compile Include="DTO\ChiTietDto.cs" />
     <Compile Include="DTO\LevyDto.cs" />
+    <Compile Include="DTO\PrintDto.cs" />
     <Compile Include="frmDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>

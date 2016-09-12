@@ -258,7 +258,43 @@ namespace KS
                     MessageBox.Show(ex.Message);
                 }
             }
+
+
+
+
+                try
+                {
+                    DateTime printDate = new DateTime();
+                    printDate = Convert.ToDateTime(txtCheckOut.Text).Date;
+
+
+                    PrintDto ptDto = new PrintDto();
+                    ptDto.PrintTime = printDate;
+
+
+                    PrintBus ptBus = new PrintBus();
+                    ptBus.Them(ptDto);
+
+                    PrintDao pt = new PrintDao();
+
+                    string STT = pt.getNumber().ToString();
+
+
+                    printDialog1.Document = printDocument1;
+                    if (printDialog1.ShowDialog() == DialogResult.OK)
+                    {
+                        printDocument1.Print();
+                    }
+                }
+                catch (Exception ex)
+                {
+
+                    MessageBox.Show(ex.Message);
+                }
             }
+
+
+           
             
         }
 
@@ -329,7 +365,7 @@ namespace KS
                 txtDeal.Text = ct.GiaThuongLuong.ToString();
                 btnDatPhong.Enabled = false;
                 btnCheckIn.Enabled = false;
-                btnPrint.Enabled = false;
+                
                 if ((int)ct.Vip == 1)
                 {
                     this.curVip = 1;
@@ -456,6 +492,23 @@ namespace KS
         {
             //frmPrint tinhtien = new frmPrint(this.curSoPhong);
             //tinhtien.ShowDialog(this);
+
+            DateTime printDate = new DateTime();
+            printDate = Convert.ToDateTime(txtCheckOut.Text).Date;
+
+
+            PrintDto ptDto = new PrintDto();
+            ptDto.PrintTime = printDate;
+
+
+            PrintBus ptBus = new PrintBus();
+            ptBus.Them(ptDto);
+
+            PrintDao pt = new PrintDao();
+
+            string STT = pt.getNumber().ToString();
+            
+
             printDialog1.Document = printDocument1;
             if (printDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -523,25 +576,30 @@ namespace KS
             string giaIn = Convert.ToDouble(txtGia.Text).ToString("#,##0");
             string phuThuIn = Convert.ToDouble(txtPhuThu.Text).ToString("#,##0");
             string TongIn = Convert.ToDouble(txtTongTien.Text).ToString("#,##0");
+            PrintDao pt = new PrintDao();
+
+            string STT = pt.getNumber().ToString();
+  
 
             e.Graphics.DrawImage(Properties.Resources.logo, 0, 0);
             e.Graphics.DrawString("SaiGon River", new Font("Arial", 10, FontStyle.Regular), Brushes.Black, 80, 15);
             e.Graphics.DrawString("ĐT: 083 740 8319", new Font("Arial", 9, FontStyle.Regular), Brushes.Black, 80, 35);
-            e.Graphics.DrawString("Tên KH: " + txtTen.Text, new Font("Arial", 8, FontStyle.Regular), Brushes.Black, 0, 70);
-            e.Graphics.DrawString("Phòng: " + curSoPhong.ToString(), new Font("Arial", 8, FontStyle.Regular), Brushes.Black, 0, 90);
-            e.Graphics.DrawString("Giờ vào: " + txtCheckIn.Text, new Font("Arial", 8, FontStyle.Regular), Brushes.Black, 0, 110);
-            e.Graphics.DrawString("Giờ ra: " + txtCheckOut.Text, new Font("Arial", 8, FontStyle.Regular), Brushes.Black, 0, 130);
-            e.Graphics.DrawString("Tiền phòng: " + giaIn, new Font("Arial", 8, FontStyle.Regular), Brushes.Black, 0, 150);
-            e.Graphics.DrawString("Phụ thu: " + phuThuIn, new Font("Arial", 8, FontStyle.Regular), Brushes.Black, 0,  170);
-            e.Graphics.DrawString("Tổng tiền: ", new Font("Arial", 8, FontStyle.Regular), Brushes.Black, 0, 192);
-            e.Graphics.DrawString(TongIn, new Font("Arial", 12, FontStyle.Regular), Brushes.Black, 55, 187);
+            e.Graphics.DrawString("STT: " + STT, new Font("Arial", 8, FontStyle.Regular), Brushes.Black, 0, 70);
+            e.Graphics.DrawString("Tên KH: " + txtTen.Text, new Font("Arial", 8, FontStyle.Regular), Brushes.Black, 0, 90);
+            e.Graphics.DrawString("Phòng: " + curSoPhong.ToString(), new Font("Arial", 8, FontStyle.Regular), Brushes.Black, 0, 110);
+            e.Graphics.DrawString("Giờ vào: " + txtCheckIn.Text, new Font("Arial", 8, FontStyle.Regular), Brushes.Black, 0, 130);
+            e.Graphics.DrawString("Giờ ra: " + txtCheckOut.Text, new Font("Arial", 8, FontStyle.Regular), Brushes.Black, 0, 150);
+            e.Graphics.DrawString("Tiền phòng: " + giaIn, new Font("Arial", 8, FontStyle.Regular), Brushes.Black, 0, 170);
+            e.Graphics.DrawString("Phụ thu: " + phuThuIn, new Font("Arial", 8, FontStyle.Regular), Brushes.Black, 0,  190);
+            e.Graphics.DrawString("Tổng tiền: ", new Font("Arial", 8, FontStyle.Regular), Brushes.Black, 0, 212);
+            e.Graphics.DrawString(TongIn, new Font("Arial", 12, FontStyle.Regular), Brushes.Black, 55, 205);
 
             Graphics gf = e.Graphics;
             SizeF sf = gf.MeasureString("Nội dung phụ thu: " + txtGhiChu.Text,
                             new Font("Arial", 8, FontStyle.Regular), 190);
             gf.DrawString("Nội dung phụ thu: " + txtGhiChu.Text,
                             new Font("Arial", 8, FontStyle.Regular), Brushes.Black,
-                            new RectangleF(new PointF(0, 210), sf),
+                            new RectangleF(new PointF(0, 230), sf),
                             StringFormat.GenericTypographic);
             //e.Graphics.DrawString("Nội dung phụ thu: " + txtGhiChu.Text, new Font("Arial", 8, FontStyle.Regular), Brushes.Black, 0, 210);
 
